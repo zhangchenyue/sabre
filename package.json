@@ -1,6 +1,12 @@
 {
   "name": "sabre",
   "version": "0.0.1",
+  "scripts": {
+    "build": "gulp"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.9"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
